@@ -22,12 +22,6 @@ module.exports = function (grunt) {
                 tasks: ['babel:dist']
             }
         },
-        eslint: {
-            target: [
-                'index.js',
-                'lib/**/*.js'
-            ]
-        },
         contributors: {
             options: {
                 commitMessage: 'update contributors'
