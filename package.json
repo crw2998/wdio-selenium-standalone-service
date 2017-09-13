@@ -5,7 +5,6 @@
   "main": "index.js",
   "scripts": {
     "build": "grunt build",
-    "postinstall": "npm prune && npm run build",
     "prepublish": "npm prune && npm run build",
     "test": "npm run test:unit && npm run test:integration",
     "test:unit": "mocha --compilers js:babel-register --recursive test/unit",
