@@ -39,7 +39,6 @@ module.exports = function (grunt) {
     grunt.registerTask('default', ['build'])
     grunt.registerTask('build', 'Build wdio-selenium-standalone-service', function () {
         grunt.task.run([
-            'eslint',
             'clean',
             'babel'
         ])
